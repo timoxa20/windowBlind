@@ -1,0 +1,381 @@
+@media (max-width: 1265px){
+    .page__img-right {
+        margin-left: 0;
+    }
+    .page__img {
+        margin-top: 174px;
+    }
+}
+
+@media (max-width: 1230px){
+    .grid__inner{
+        flex-wrap: wrap;
+    }
+    .grid__right{
+        margin-left: 0;
+    }
+    .grid__l{
+        display: grid;
+    }
+    .grid__title{
+        text-align: center;
+    }
+    .grid__left,
+    .grid__right{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1010px){
+    .feedback__inner{
+        display: block;
+    }
+    .feedback__text,
+    .feedback__img,
+    .feedback__title{
+        text-align: center;
+    }
+    .header__menu{
+        display: none;
+    }
+    .menu__btn{
+        display: block;
+       
+    }
+    .mobile__menu{
+        position: absolute;
+    }
+    .menu{
+        order: 1;
+    }
+    .mobile__logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .feedback__button{
+        margin: 20px auto;
+    }
+    .gorizont__inner{
+        display: block;
+    }
+    .gorizont__img{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .gorizont__title{
+        text-align: center;
+    }
+    .page__point{
+        font-size: 15px;
+    }
+    .page__subtext{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .page{
+        padding: 20px 0;
+    }
+    .page__title.gorizont__title{
+        margin-left: 187px;
+    }
+    .rul__img{
+        margin-top: 227px;
+    }
+    .mc__inner{
+    display: block;
+    }
+    .mc__img{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .mc{
+        margin: 20px 0;
+    }
+    .mc__title{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 860px){
+    .jaluzi__left,
+    .jaluzi__text{
+        width: 100%;
+    }
+    .jaluzi__mol::before{
+        display: none;
+    }
+    .jaluzi__inner{
+        display: block;
+    }
+    .jaluzi__button{
+        margin-bottom: 20px;
+    }
+    .box__img{
+        text-align: center;
+    }
+    .jaluzi__left{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .jaluzi__button{
+        display: block;
+        text-align: center;
+    }
+    .jaluzi__text {
+        height: 153px;
+        font-size: 90px;
+        line-height: 64px;
+    }
+    .header__subheader {
+        margin-left: -130px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .footer__inner{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer__social{
+        padding-top: 15px;
+        width: 100%;
+    }
+    .footer__title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 770px){
+    .gorizont__text{
+        margin-left: 0;
+    }
+    .gorizont{
+       margin: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    .block__title{
+        font-size: 45px;
+    }
+    .block__inner{
+        position: relative;
+        width: 100%;
+        margin: 10px 0 0 0;
+        height: 85px;
+        font-size: 13px;
+    }
+    .block__img{
+        top: -5px;
+        position: absolute;
+        width: 39px;
+        height: 66px;
+    }
+    .block__subtext{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 735px){
+    .header__button{
+        display: none;
+    }
+}
+
+@media(max-width: 700px) {
+    .jaluzi__text{
+        height: 116px;
+        font-size: 70px;
+        line-height: 53px;  
+    }
+    
+}
+
+@media (max-width: 640px){
+    .block__title{
+        font-size: 35px;
+    }
+    .block__inner{
+        margin: 10px auto;
+    }
+    .feedback__images{
+        width: 400px;
+    }
+}
+
+@media (max-width: 620px){
+    .grid{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .block__subtext{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 565px){
+    .header__subheader {
+        margin-left: -161px;
+    }
+    .header__subheader {
+    margin-left: -75px;
+    }
+    .footer__main-menu {
+        width: 30px;
+    }
+    .footer__subheader {
+        top: -218px;
+        width: 355px;
+    }
+    
+}
+
+@media (max-width: 560px){
+    .block__text{
+        margin-bottom: 10px;
+    }
+    .footer__inner{
+        display: block;
+    }
+    .footer__info,
+    .footer__menu,
+    .footer__information{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header__subheader {
+        margin-left: 85px;
+    }
+    .block__subtext {
+        margin-left: 30px;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .jaluzi__text{
+        height: 116px;
+        font-size: 47px;
+        line-height: 42px; 
+    }
+    .jaluzi__mol{
+        font-size: 16px;
+    }
+    .feedback__title {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .feedback__images {
+        width: 242px;
+    }
+}
+
+@media (max-width: 525px){
+    .page__inner{
+        display: block;
+    }
+    .page__text{
+        width: 100%;
+    }
+    .page__title.gorizont__title {
+         margin-left: 0px; 
+    }
+    .page__img{
+        margin: 20px auto;
+    }
+    .page__img-top{
+        margin-top: 10px;
+    }
+    .mc__img img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    .right__img{
+        width: 280px;
+        height: 340px;
+    }
+    .gorizont__title{
+        font-size: 30px;
+    }
+    .gorizont__img-images{
+        width: 300px;
+    }
+    .gorizont__text {
+        font-size: 15px;
+    }
+    .gorizont__text span{
+        font-size: 20px;
+    }
+    .mc__text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px){
+    .header__subheader {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 435px) {
+    .header__subheader {
+        margin-left: 15px;
+    }
+    .questions__icons svg{
+        width: 20px;
+        height: 20px;
+    }
+    .questions__text {
+        font-size: 16px;
+    }
+    .questions__title{
+        font-size: 25px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .header__select{
+        display: none;
+    }
+    .header__subheader-text{
+        font-size: 10px;
+    }
+    .footer__subheader {
+        width: 300px;
+    }
+    .block__subtext {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 390px){
+    .jaluzi__text {
+        height: 69px;
+        font-size: 36px;
+        line-height: 31px;
+    }
+    .jaluzi__subtext{
+        font-size: 10px;
+    }
+    .jaluzi__mol{
+        font-size: 13px;
+
+    }
+    .gorizont__img-images {
+        width: 280px;
+    }
+}
+
+@media (max-width: 345px){
+    .header__subheader {
+        margin-left: -10px;
+    }
+}
